@@ -1,5 +1,5 @@
 # CAAs_1
-Chromosome arm aneuploidies in cancer
+Chromosome arm aneuploidies (CAAs) in cancer
 
 This README file pertains to:
 
