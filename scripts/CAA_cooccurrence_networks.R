@@ -4,8 +4,8 @@ library(qgraph)
 library(scales) # rescale()
 library(Hmisc)  # %nin%
 
-setwd("/Users/lfink/projects/dujif_chromothripsis/chr_changes/")
-datafile <- "/Users/lfink/projects/dujif_chromothripsis/chr_changes/Network-A.txt"
+setwd("/Users/lfink/projects/duijf_chromothripsis/chr_changes/")
+datafile <- "/Users/lfink/projects/duijf_chromothripsis/chr_changes/Network-A.txt"
 data     <- read.csv(datafile, header=TRUE, sep="\t") # get some basic information before trying to make plots
 
 
@@ -13,7 +13,7 @@ data     <- read.csv(datafile, header=TRUE, sep="\t") # get some basic informati
 ## FUNCTION:
 # read datafile with events, select a group using the "Origin/Type/Blood_solid" name, provide a name to use in file names and plot titles
 draw_chr_network <- function(datafile, groupname, printname){
-  #datafile      <- "/Users/lfink/projects/dujif_chromothripsis/chr_changes/Network-A.txt"
+  #datafile      <- "/Users/lfink/projects/duijf_chromothripsis/chr_changes/Network-A.txt"
   #groupname     <- "Solid"
   #groupname     <- "BRCA"
   #printname     <- groupname
