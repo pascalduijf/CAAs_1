@@ -11,7 +11,7 @@ This pan-cancer project involved analyses of chromosome arm aneuploidies (CAAs) 
 revealed novel aspects of tumour evolution, metastasis, patient survival outcome, and chemotherapeutic drug response for a 
 broad range of cancers.
 
-This folder contains data files and Python and R scripts used in the study.
+This repository contains data files and Python and R scripts used in the study.
 
 SYSTEM REQUIREMENTS
 - Mac OS (OS X El Capitan or later) or Microsoft Windows (Windows 10 or later)
