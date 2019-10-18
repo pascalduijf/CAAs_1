@@ -19,19 +19,25 @@ SYSTEM REQUIREMENTS
 - Python (version 3 or later)
 
 INSTALLATION GUIDE
-- R: Refer to: 
+- R software: Refer to: 
 "https://cran.r-project.org/bin/windows/base/" (Mac OS X), 
 "https://cran.r-project.org/bin/windows/base/" (Windows).
 Install time: 1-2 minutes.
-- Python 3: Refer to: 
+- R packages: Refer to .R R scripts provided in the "scripts" folder.
+- Python 3 software: Refer to: 
 "https://www.python.org/downloads/macos" (Mac OS X), 
 "https://www.python.org/downloads/windows/" (Windows).
 Install time: 1-2 minutes.
+- Python modules and packages: Refer to .py Python scripts provided in the "scripts" folder.
 
 DEMO
-- Install required Python or R packages, as indicated in scripts.
-- Load Python or R libraries.
-- Run scripts on demo data included in Source Data or in provided .csv files.
+- Install Python/R software, modules and packages, as indicated above and in provided scripts.
+- Import modules/install packages/load libraries as indicated in scripts.
+- Demo to call CAAs from source data:
+  * Use input file and Python script in the "CAAs_1/demo" folder. Segmented CN data are in the subfolder "CAAs_1/demo/cnv_data". (Unzip file "MSK-IMPACT_CNA_Segments.seg.zip" first.)
+  * Type at the shell prompt: "$ python3 MSKCM-IMPACT_CAL-SNCAs_cnv_analysis.py".
+  * The python script uses the .seg file for processing. Note that the input file for the segmented CN data inside the "cnv_data" folder needs to have the extension ".seg" and that the segmented CN data are tab-delimited and in UTF-8 format.
+- Run other scripts (in "CAAs_1/scripts" folder) on data (in "CAAs_1/data files" folder or the "Source Data" file).
 - Expected output: See Supplemental Tables accompanying the paper.
 
 INSTRUCTIONS FOR USE
