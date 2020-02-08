@@ -6,7 +6,8 @@ This README file pertains to:
 Chromosome arm aneuploidies shape tumour evolution and drug response.
 Shukla A, Nguyen THM, Moka SB, Ellis JJ, Grady JP, Oey H, Cristino AS, Khanna KK, Kroese DP, Krause L, Dray E, Fink JL, 
 Duijf PHG.
-Nature Communications 2020 (in press).
+Nature Communications 11: 449 (2020).
+https://www.nature.com/articles/s41467-020-14286-0
 
 This pan-cancer project involved analyses of chromosome arm aneuploidies (CAAs) in cancer development. The study of CAAs 
 revealed novel aspects of tumour evolution, metastasis, patient survival outcome, and chemotherapeutic drug response for a 
